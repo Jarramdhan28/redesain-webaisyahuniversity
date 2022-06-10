@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+/* tag backgroud-color */
+.bg-purple{
+    background-color: #6F42C1;
+}
+
+.bg-purple-2{
+    background-color: #BB6BD9;
+}
+
+.text-gray{
+  color: #6C757D;
+}
+
+.text-purple{
+  color: #6F42C1;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.btn-purple{
+  background-color: #6F42C1;
+  color: white;
+}
+
+
+/* header nav */
+.header-img{
+  width: 65px;
+}
+
+@media (max-width: 576px) {
+  .header-img{
+    width: 40px;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .header-img{
+    width: 50px;
+  }
+ }
+
+ @media (min-width: 1200px) {
+   .header-img{
+     width: 65px;
+   }
+ }
+
+/* web-hero */
+@media (min-width: 1200px) {
+  .web-hero{
+    background-image: url('../assets/img/bg-hero-1.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 574px;
+    margin-top: 60px;
+
+  }
+
+  .web-hero-items{
+    padding-top: 245px;
+  }
+
+  .garis{
+    width: 359px;
+    height: 18px;
+    margin-left: 155px;
+    margin-top: -22px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .web-hero{
+    background-image: url('../assets/img/bg-hero-1.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 574px;
+    margin-top: 60px;
+
+  }
+
+  .web-hero-items{
+    padding-top: 245px;
+  }
+
+  .garis{
+    display: contents;
+  }
+}
+
+@media (max-width: 922px) {
+  .web-hero{
+    background-image: url('../assets/img/bg-hero-1.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 460px;
+    margin-top: -42px;
+  }
+
+  .web-hero-items{
+    padding-top: 245px;
+  }
+
+  .web-hero-items{
+    padding-top: 180px;
+  }
+
+  .web-hero-items h5{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .web-hero{
+    display: contents;
+
+  }
+
+  .web-hero-items{
+    padding-top: 150px;
+    text-align: center;
+  }
+
+  .web-hero-items h5{
+    font-size: 14px;
+  }
+
+  .btn-purple{
+    background-color: #6F42C1;
+    color: white;
+    font-size: 10px;
+  }
+}
+
+
+/* title prodi */
+.title-prodi{
+  padding-top: 80px;
+  padding-bottom: 70px;
+}
+
+
+/* title uap */
+.title-uap{
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+
+/* Berita */
+.title-berita{
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
