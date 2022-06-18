@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
 
 body{
     padding: 0px;
@@ -12,6 +13,23 @@ body{
 
 .bg-purple-2{
     background-color: #BB6BD9;
+}
+
+.bg-purple-3{
+  background-color: #E5DCF5;
+
+}
+
+.bg-orange{
+  background-color: #F0BA47;
+}
+
+.bg-red{
+  background-color: #F64C32;
+}
+
+.bg-blue{
+  background-color: #09A4DB;
 }
 
 .text-gray{
@@ -162,4 +180,72 @@ body{
 .title-berita{
   padding-top: 80px;
   padding-bottom: 40px;
+}
+
+
+
+/* Berita Terbaruu */
+
+/* Web Link */
+.web-link{
+  padding-top: 120px;
+  padding-bottom: 20px;
+}
+
+.web-link a{
+  text-decoration: none;
+}
+
+/* Berita Kampus */
+.berita-kampus{
+  padding-top: 44px;
+}
+
+.color-link{
+  color: black;
+}
+
+/* Berita kampus 1 */
+
+.berita-kampus-1{
+  padding-top: 44px;
+}
+
+
+/* Fakultas Kesehaan */
+.web-carousel{
+  padding-top: 0px;
+}
+
+.web-hero-kesehatan{
+  padding-top: 50px;
+}
+
+@media (max-width: 991.98px) {
+  .img-hero-kes img{
+    width: 70%;
+  }
+}
+
+/* web-visi-misi */
+.web-visi-misi{
+  padding-top: 50px;
+}
+
+/* web-program-studi */
+.web-program-studi{
+  padding-top: 40px;
+}
+
+.card-hover a{
+  background-image: url('assets/img/berita-1.png');
+  text-decoration: none;
+}
+.card-hover a:hover{
+  b-image: url(assets/img/berita-1.png) no-repeat;
+}
+
+/* web-galery-kes */
+.web-galery-kes{
+  padding-top: 40px;
 }
