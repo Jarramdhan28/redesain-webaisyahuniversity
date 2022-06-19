@@ -249,3 +249,17 @@ body{
 .web-galery-kes{
   padding-top: 40px;
 }
+
+
+
+@media (min-width: 1400px) {
+  .w-dropdown{
+    width: 80%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .w-dropdown{
+    width: 100%;
+  }
+}
